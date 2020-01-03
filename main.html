@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>自制主页 -- FLYC飘云</title>
+  <script src="apis/util.js"></script>
+  <script>
+    var pages = [
+        ["ten_drops", "十滴水"],
+        ["go_bang", "五子棋"],
+        ["duodian", "多点触控"],
+        ["cc", "存储"],
+        ["wolf_kill", "狼人杀发牌"],
+        ["music_player", "音乐播放器"],
+        ["text_book", "电子课本"],
+        ["translator", "有道翻译"]
+    ];
+    
+    window.onload = function(){
+        for(var i in pages) dg("pp").innerHTML +=
+        '<a href="' + pages[i][0] + '/index.html">' + pages[i][1] + '</a></br>';
+	}
+  </script>
+</head>
+<body
+  <h1>主页</h1><hr>
+  <p id=pp></p>
+  <a href="ftp://192.168.5.150">学校ftp</a>
+</body>
+</html>		
