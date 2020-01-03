@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>电子课本</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width;">
+    <style>
+      html, body{
+          padding: 0px;
+          margin: 0px;
+      }
+    </style>
+    <script src="../apis/util.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body align="center">
+    <input id="in1"> <input id="in2">
+    <button onclick="getPage(--page.value)">上一页</button>
+    <button onclick="getPage()">翻页</button>
+    <button onclick="getPage(++page.value)">下一页</button>
+    </br><frame id="img">
+  </body>
+</html>

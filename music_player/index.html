@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>音乐播放器 -- FLYC飘云</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0; ">
+    <style>
+      html, body{
+          background-color: black;
+          padding: 0px;
+          margin: 0px;
+      }
+    </style>
+    <script src="../apis/util.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body align="center">
+    <input id="in">
+    <button onclick="getMusic()">播放</button>
+    <button onclick="getList()">歌单</button>
+    <audio id="au" controls="controls" autoplay="autoplay"></audio>
+    <iframe id="ifr" frameborder="no" width="360" height="3000"></iframe>
+  </body>
+</html>
