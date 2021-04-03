@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=0; ">
     <script src="js/script.js"></script>
-    <style>.show { word-break:break-all; }</style>
+    <style>#showURL { word-break:break-all; }</style>
   </head>
   <body>
     <p>
@@ -19,8 +19,8 @@
     音量：<input id="vol"></br>
     发音人：<input id="per"></br>
     <button onclick="say()">播放</button>
-    <audio id="au" controls="controls" autoplay="autoplay"></audio>
+    <audio id="audio" controls="controls" autoplay="autoplay"></audio>
     </p>
-    <p class="show" id="showurl"></p>
+    <p id="showURL"></p>
   </body>
 </html>
